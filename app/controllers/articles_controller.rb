@@ -22,12 +22,11 @@ class ArticlesController < ApplicationController
   # add edit and update methods here
   
   def edit
-    binding.pry
     @article = Article.find(params[:id])
   end
   
   def update
-    
+    binding.pry
   end
   
 end
