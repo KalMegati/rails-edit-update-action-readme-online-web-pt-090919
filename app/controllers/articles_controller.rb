@@ -26,7 +26,7 @@ class ArticlesController < ApplicationController
   end
   
   def update
-    binding.pry
+    @article = Article.find(params[:id])
     redirect_to article_path(@article)
   end
   
