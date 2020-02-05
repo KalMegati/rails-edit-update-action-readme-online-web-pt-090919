@@ -27,6 +27,7 @@ class ArticlesController < ApplicationController
   
   def update
     binding.pry
+    redirect_to article_path(@article)
   end
   
 end
